@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.continer{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px auto;
+    background-color: mediumorchid;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+}
