@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: mediumvioletred;
+            border-radius: 100%;
+            margin: 100px auto;
+            animation-name: skew;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            transition: background-color 0.3s;
+        }
+        @keyframes skew{
+            from{
+                transform: skew(-30deg,-30deg);
+                background-color:mediumblue;
+            }
+            to{
+                transform: skew(30deg,30deg);
+                background-color: mediumseagreen;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

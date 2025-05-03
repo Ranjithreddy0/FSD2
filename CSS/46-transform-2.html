@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: mediumaquamarine;
+            margin: 100px auto;
+            animation-name: skeww;
+            animation-duration: 1s;
+            animation-iteration-count:infinite;
+            animation-direction: alternate;
+            
+        }
+        @keyframes skeww{
+           
+            from{
+                transform: skew(-40deg);
+            }
+            to{
+                transform: skew(40deg);
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

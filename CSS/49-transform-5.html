@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            border-radius: 100%;
+            margin: 100px auto;
+            background-color: mediumblue;
+            animation-name: cr;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+            animation-direction: alternate;
+        }
+        @keyframes cr{
+            0%{
+                background-color: mediumpurple;
+                height: 300px;
+                width: 300px;
+                border-radius: 100%;
+            }
+            50%{
+                background-color: rgb(216, 112, 168);
+                height: 500px;
+                width: 500px;
+                border-radius: 100%;
+            }
+            100%{
+                background-color: rgb(57, 19, 133);
+                height: 700px;
+                width: 700px;
+                border-radius: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

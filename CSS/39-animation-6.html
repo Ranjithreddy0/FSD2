@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 60px;
+            background-color:red;
+            animation-name: ph;
+            animation-duration: 4s;
+            animation-iteration-count: 2;
+            animation-fill-mode: forwards;
+        }
+        @keyframes ph{
+            0%{
+                width: 100px;
+                background-color: red;
+            }
+            25%{
+                width: 300px;
+                background-color:orange ;
+            }
+            50%{
+                width: 500px;
+                background-color: yellow;
+            }
+            75%{
+                width: 700px;
+                background-color: yellowgreen;
+            }
+            100%{
+                width: 900px;
+                background-color: blue;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

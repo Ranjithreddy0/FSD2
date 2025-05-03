@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .continer{
+            height: 100vh;
+            width: 100%;
+            background-color: black;
+        }
+        .d1{
+            height: 300px;
+            width: 300px;
+            border-radius: 100%;
+            background-color: blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 50px;
+            position: relative;
+            top: 0px;
+            left: 300px;
+            z-index: 30;
+        }
+        .d2{
+            height: 300px;
+            width: 300px;
+            border-radius: 100%;
+            background-color:rgb(255, 0, 0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 50px;
+            position: relative;
+            bottom:300px;
+            left: 300px;
+            z-index: 40;
+
+        }
+        .d3{
+            height: 300px;
+            width: 300px;
+            border-radius: 100%;
+            background-color: rgb(212, 255, 0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 50px;
+            position: relative;
+            bottom: 600px;
+            left: 300px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="continer">
+        <div class="d1">home</div>
+        <div class="d2">about</div>
+        <div class="d3">index</div>
+    </div>
+</body>
+</html>
