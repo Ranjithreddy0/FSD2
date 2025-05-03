@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .form-container {
+            width: 500px;
+            background-color: rgb(62, 62, 237);
+            border: 3px solid black;
+            border-radius: 6px;
+            margin: 100px auto;
+            padding: 20px;
+
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            border: 2px solid white;
+            border-radius: 2px;
+            padding: 10px;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+
+        }
+
+        label {
+            font-size: 20px;
+        }
+
+        .submit {
+            margin-top: 10px;
+            color: black;
+        }
+
+        .submit:hover {
+            background-color: grey;
+        }
+
+        .form-container:hover {
+            background-color: rgb(143, 143, 205);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="form-container">
+            <h1>STUDENT LOGIN FORM</h2>
+                <form method="post" action="">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" required placeholder="first name">
+                    <label for="lastname">Last Name</label>
+                    <input type="type" id="lastname" required placeholder="last name">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" required placeholder="email">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" required placeholder="password">
+                    <label for="confirmpassword">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirmpassword" required placeholder="confirm password">
+                    <input class="submit" type="submit" value="sign in">
+                </form>
+        </div>
+    </main>
+</body>
+
+</html>

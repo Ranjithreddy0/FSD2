@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgrey; 
+}
+.head{
+    padding: 16px 78px;
+    background-color: #fff;
+}
+.big-logo {
+    width: 130px;
+    font-size: 32px;
+    color: #0084ff;
+}
+.small-logo{
+    margin: 0px;
+    font-weight: 500;
+    font-style: italic;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.drop-down select{
+    border:none;
+    outline: none;
+    color: #000;
+}
+main{
+    width: 1100px;
+    height: max-content;
+    /* border: 2px solid black; */
+    margin: 20px auto;
+    margin-left: 250px;
+}
+.heading{
+    color: #000;
+    font-weight: 600;
+    margin: 0px;
+}
+.filter{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+.continer{
+    margin-bottom: 20px;
+    padding-top: 16px;
+    font-size: 16px;
+}
+button{
+    padding: 6px 14px;
+    width: auto;
+    color: #0084ff;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+}
+button:active{
+    color: #fff;
+    background-color: #0084ff;
+}
+.item{
+    width: 300px;
+    /* border: 2px solid black; */
+    box-shadow: 1px 3px 6px;
+    margin-bottom: 30px;
+}
+.img-section{
+    height: 176px;
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px ;
+}
+.matter{
+    padding: 10px 24px;
+    background-color: #fff;
+
+}
+.first-heading{
+    font-size: 18px;
+    text-align: left;
+    margin: 0px;
+    font-weight: 600;
+}
+.author-continer{
+    padding-top: 4px;
+    display: flex;
+    gap: 15px;
+}
+.author{
+    color: #0096ff;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+}
+.date{
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
+    font-weight: 300;
+}
+.para{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgba(0,0,0,0.6);
+    margin: 4px 0px;
+}
+.poster{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+footer {
+    background-color: hsl(227, 51%, 18%);
+    padding:18px 16% ;   
+}
+
